@@ -1,4 +1,6 @@
-﻿namespace Module04_ReferenceTypes
+﻿using System.Text;
+
+namespace Module04_ReferenceTypes
 {
     class Program
     {
@@ -61,6 +63,25 @@
                 System.Console.WriteLine(y[j]);
             }
 
+            // STRINGS
+            string u = "Mikkel";
+            string w = u + " \n\t\t*** " + u;
+            System.Console.WriteLine(w);
+
+            //string stiTilFil = "c:\\temp\\text.txt";
+            string stiTilFil = @"c:\temp\text.txt";
+
+            u = u.ToUpper();
+            System.Console.WriteLine(u.Substring(2, 3));
+
+            string a = "";
+            for (int q = 0; q < 1_000_000; q++)
+            {
+               a = a + "*";
+            }
+
+            StringBuilder sb = new StringBuilder();  // brug denne hvis meget string manipulation
+            sb.Append("text");
 
 
             if (System.Diagnostics.Debugger.IsAttached)
