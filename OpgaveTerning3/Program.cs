@@ -60,7 +60,7 @@ namespace OpgaveTerning3
 
         public void skriv()
         {
-            Console.WriteLine("[" + this.værdi + "]");
+            Console.Write("[" + this.værdi + "] ");
         }
 
     }
