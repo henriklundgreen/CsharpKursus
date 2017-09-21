@@ -27,7 +27,7 @@ namespace Module05_Methods
 
         static void Test1()
         {
-            int i = 1;
+            //int i = 1;
         }
 
         static void Test2(int y)
