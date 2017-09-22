@@ -18,7 +18,17 @@
             HjælpeInstruktør o6 = o5 as HjælpeInstruktør;
             o6.KørLøn();
             o6.FindKlasser();
-                        
+
+            Person[] pa = new Person[4];
+            pa[0] = o1;
+            pa[1] = o2;
+            pa[2] = o3;
+            pa[3] = o4;
+            foreach (var item in pa)
+            {
+                item.print();  // compiler finder selv ud af hvilken type objeter er
+            }
+
 
             if (System.Diagnostics.Debugger.IsAttached)
             {
@@ -32,9 +42,14 @@
     {
         public string navn { get; set; }
 
-        public void print()
+        public virtual void print()
         {
             System.Console.WriteLine("Jeg er en Person og hedder " + this.navn);
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + " navn " + this.navn;
         }
     }
 
@@ -46,6 +61,11 @@
         {
 
         }
+
+        public override void print()
+        {
+            System.Console.WriteLine("Jeg er en Student og hedder " + this.navn + " med id " + this.StudentId);
+        }
     }
 
     class Instruktør : Person
@@ -55,6 +75,11 @@
         public void KørLøn()
         {
 
+        }
+
+        public override void print()
+        {
+            System.Console.WriteLine("Jeg er en Instruktør og hedder " + this.navn + " med nøgle " + this.nøgle);
         }
     }
 
@@ -67,6 +92,10 @@
 
         }
 
+        public override void print()
+        {
+            System.Console.WriteLine("Jeg er en HjælpeInstruktør og hedder " + this.navn + " med nøgle " + this.nøgle);
+        }
     }
 
     class MinRandom : System.Random  // eksempel på nedarving fra system klasse
