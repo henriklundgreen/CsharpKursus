@@ -10,6 +10,8 @@
 
             Person p = new Person() { Navn = "Henrik", Alder = 57 };
 
+            double res = FinansielleBeregninger.Beregn();  // da Beregn() er static kaldes den på klassen
+
 
             if (System.Diagnostics.Debugger.IsAttached)
             {
