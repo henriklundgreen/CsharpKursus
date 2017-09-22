@@ -27,15 +27,16 @@ namespace PolymorphismOpgave
         }
     }
 
-    class Dyr
+    abstract class Dyr
     {
         private static System.Random rnd = new System.Random();
         public string navn { get; set; }
 
-        public virtual void SigNoget()
-        {
-            Console.WriteLine("Jeg er et Dyr som hedder: " + this.navn);
-        }
+        public abstract void SigNoget();  // abstart, så skal de børnene implementere metoden
+        //public virtual void SigNoget()  // virtual, så kan børnene implementere deres egen version af metoden
+        //{
+        //    Console.WriteLine("Jeg er et Dyr som hedder: " + this.navn);
+        //}
 
         public static Dyr TilfældigtDyr()
         {

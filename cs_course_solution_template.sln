@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NedarvingOpgave3", "Nedarvi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismOpgave", "PolymorphismOpgave\PolymorphismOpgave.csproj", "{0F872B85-7389-49CF-8B8E-948EC320EC87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionOpgave", "ExceptionOpgave\ExceptionOpgave.csproj", "{873D77C6-60F5-4D77-ACDA-E738966865F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -193,6 +195,10 @@ Global
 		{0F872B85-7389-49CF-8B8E-948EC320EC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F872B85-7389-49CF-8B8E-948EC320EC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F872B85-7389-49CF-8B8E-948EC320EC87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{873D77C6-60F5-4D77-ACDA-E738966865F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873D77C6-60F5-4D77-ACDA-E738966865F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873D77C6-60F5-4D77-ACDA-E738966865F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873D77C6-60F5-4D77-ACDA-E738966865F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -228,5 +234,6 @@ Global
 		{D8FA1823-097F-47FF-AE9A-0FC8997D4BA9} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{56C08800-630E-4BDE-97FC-DBF79B7D61BD} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 		{0F872B85-7389-49CF-8B8E-948EC320EC87} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
+		{873D77C6-60F5-4D77-ACDA-E738966865F7} = {5E1B2542-C3EE-4515-8C83-C8E805B50E0F}
 	EndGlobalSection
 EndGlobal
