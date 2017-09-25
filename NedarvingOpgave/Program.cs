@@ -1,36 +1,6 @@
-ï»¿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NedarvingOpgave
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            MinRandom mr = new MinRandom();
-            Console.WriteLine(mr.NextBool().ToString() );
-
-
-            System.Console.Write("Press any key to continue . . . ");
-            System.Console.ReadKey();
-
-        }
-    }
-
-    class MinRandom : System.Random  // eksempel pÃ¥ nedarving fra system klasse
-    {
-        public bool NextBool()
-        {
-            Random rnd = new Random();
-            int tal = rnd.Next(2,1001);
-            if (tal < 500)
-                return true;
-            else
-                return false;
-        }
-    }
-
-}
+INš íÜûO{²Ï~¬×^{­µ×Şç¶ÚĞAßĞZÍCª¬ÔæÿU ÕØIjì ÿãÜÖcÕ‹#eâ«¡Ÿü.¤‰rWÎ`%ôr¹œÁiĞ3†i0ôLì¶ggp´‘»™ºÙh·†Zï€PdûRZêè¡®´Tkğ@
+·˜ÎVÓØ#Š›İ¬n3‰ù'}ùØ¿ƒ]ñÄç8hn¾6Esª‹Sà²‡Óéo!S Í°‡'Ûé©Ğ 2ô0ê`¯5è~Œ{‘&Y£bŞµVU|	¢)5aO:ÓìÊ¬‡XŸ­Íˆİq-‰¶£ÎjéOJŞ—¥\æPê»Šd$Ğ`'êÍ´ÅLØ•´Îä–‰¶ˆ¦\*¼‰
+²Ì«¢.Ï•‡™u³ŠŸÕ!Ş[&.9lâgvósa´Eæå½œ#Ó­İ«¸Y'-PÄ Jª…Ìyeä¼3rŞÎ6ç_ÊÑ^ıO&%h³—Öâ,í¸âwİü|_I‘ÕÓJ^/Œ—Wg¼¼¦ruz/¥yâ£ß5ø`ôn(HT#3ù‘ƒÚ@­r>#S„Ş–µ<¥Ê–áÒ•*¸S	æJZĞæjwIşße }—ödB{RÿÇó_Ÿtş_#¯•SzPñe ’Vº¸’v_ÜH€<¸x÷¥ê*Ü.MÚZì{y¦GŞÇoé{‘vdk¾æI¶Ô}çCHIÓL,« /
+>-¢.0MH×îîu†²lĞÖÎ`òl¥|‹Ê÷Ol1W’ä~øMeâoïG5a:±(Ó—Èó¸Š-?Wİ9=Nf2µHÍkRj®ªÍŸà_RKD!©¹“¤æ›ÿF²ÔXj"$5{ÍÁ¬Èø³iVœuÏ
+²|JÃùÏ¬áfî/i¸½½ÖĞŞ;rw©Z³Y—ï7İRdÃ#2:Ø~XŠa¶ùåŞş1ÿş«¥š©v'/Á¾š“Ô¾ræÏu-=+\î®Ñ}î¶¬ÑÓ"íçpÜº¿D—ÑèK×2:{É˜YJ
+c”GŸÒ+²¯æ!ÃLaÿ˜×QãØ(nx!ìm.(#z•fôŠúË™

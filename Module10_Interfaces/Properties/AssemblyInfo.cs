@@ -1,36 +1,4 @@
-ï»¿using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
-
-// General Information about an assembly is controlled through the following
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-[assembly: AssemblyTitle("Module10_Interfaces")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Module10_Interfaces")]
-[assembly: AssemblyCopyright("Copyright Â©  2017")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-
-// Setting ComVisible to false makes the types in this assembly not visible
-// to COM components.  If you need to access a type in this assembly from
-// COM, set the ComVisible attribute to true on that type.
-[assembly: ComVisible(false)]
-
-// The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("d483641f-1fc6-47b3-a957-ac7771e1114d")]
-
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Build and Revision Numbers
-// by using the '*' as shown below:
-// [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+u?Êjá§«ïV~—ä<hCÆFù,ºİÊ~ëÉ­§Á=òÏ\o]ÑŸ^N^öóàzU6–ØRlĞºø‡kŞ{œ=SíldÛ:%Ä1}}Çl.P¯FÓÈÈ¶U›m3µsêt;^Ï5İË[Ç‡6óÏÑzgÑ&“&Ç®´˜[À/ç™ØL6ùÂ’kVzçWnXp›œ“'u(Ö±’ÛØ±[}~9[oÜ /…¸rıA¹·×_ïü¹DßÅ1‘Ï/½Ò>·ınhl±RıG5xß;ãë¥GZjñ¸—]ŞînƒwîëÿtMâÄï+·uè½Ñã…WOóZ‰ñÁ¯nTIŸşõƒÀr2lÙ|y\•-…Ææ}7eå¥—®İmÆ$Ü¬î·Á“Š;õÚ¹wÛÎm=Ü«M÷ŞpÛ¿QùÙ^'º˜“áQë°gQwÌ¼§œíTÿùD§w1Yl–Å÷^7{Ì£óWêäêWÕºú¤SwönÜ±»fÇfVE¾Ü˜˜mL!·/Ó\Ë'”^½ù]ÜBßvN]æÕİzîòH»6³ì"²¾˜z5(hÎØ¾v—õ·Òğñçõñ‘M¯Äyìı¸ş¦kûŠ´[¼õLçÑ‰Kj/ú’0rÅØëÁ÷2w/°{Á¦Ÿ>ß‰lx´C˜ß¹Á73oœ\õK–g¦A–½Î‡D–/Wı‹ÃÑ»r8°é“Øiæ_ßi­â°lŠãN³ßç\­nÇ#\,_Şù¸TïëKú¬Ûq XÕ%­#*zŠÊ¿öVnÄ†ˆ;ƒzGì³®úã)3œ*şR©™s—ÖMvÊ=µPÙ¹oûìurÀÉ×?ï¿èè—âÏÛ†-~§Õƒfa/k\O~5oâÂïY»Gæ°‰ÈP:`rTè}¶Ïï:ï~{èb¯@×1mKïs9v×¬ıæeöµÉìÓÈírÜÒË:îÜë\û®×‚»6ëïe¾šè»lÂGîë-ÂWN\XüyËæK´šq.åAà©ÛÁx×ÏÛÖÂ®zÃ;½~ˆkÙt‘Ïü†¬xVÅşB‚¦§û×ùşé€í§Fmÿ˜óIÓ§a¹÷EÄ,Œ|^¼ÏáÄŒ¦±oÓêÎ¢©o».[šè”Ğ0ŸQù^13Î«¹©cD­M§?p:ôrıÍ©Ù6˜?d7Ï¶‚Õ½w1ÛlïØ½«×àĞÏåf:ÌkTtEõÄ±¾Uöµ¹<ÿsµŞÊ7¨UïVè¦®rû¯[÷æeáÓÙâ¾ëœ³S¥zŞ*ñÑü‹é\•úræ±Í%ö]ºo¼ázÎi†}7ûÎRí»°Z™ê¹à7{«ïGÔi`kIázÕí>Ú›œûƒYİ[=œäTÑc_ûÅÕjTÿTyFæÉ±³
+–ğÿtnÿ•Œç~¹é`ŞşÔ¼ï-õdíó7Ôìø9{ãW%?Ø·¿¢©ù;ï‹r}òæà‡R­%Í°èó&ÜëÃæ³²$ŸZu„íÀzûÓ¯mí:ò]Æaû»tÙ¡áçIc®¯šÔß)÷¥î±™¢–}U`Â;¿_ºÔ´|i¿¹¿ëÜc‘‘\yg™Ëápã½ë"=–\-4ñğøE=ZğrxÔ@»)…jßóYğÌoÇ™LÕ.w0yg-7k«ı­/	|¡n6¬×ñQw—œzİ¡@õKEİ‡Íq
+ÍóÀÊ|ç˜{e´àešÿ\î5L¥*ÎmûÜéf­==¹ø¶‹ÇK‡İ­æ.^i·'À¯]ÛÊ¶r|lZ»éşà3*myqöÂ…„	Ÿ=£ö;–ëñ%ì¡İ¾ûY¼ç¼¾è«aí
+m\Yã‡ëKJ}Z2Ô´kNÕ-Ew/öûÊêï³klÆ¾Í}e­öÕ©®uê
